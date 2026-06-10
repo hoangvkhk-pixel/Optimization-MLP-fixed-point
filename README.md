@@ -35,3 +35,17 @@ AVL:
 MLP:
 
 - `mlp_portable/run_mlp_original12_fixedpoint_split300k_qmission3000_H500_cy06_optimize.bat`
+
+## Fixed-Point Topview
+
+Current topview gallery is available in `topview_fixedpoint_partial_20260610/`.
+
+- `3` branches already include `AVL + MLP`: `normal_1_1`, `normal_1_2`, `normal_1_3`
+- remaining `9` branches currently show `MLP-only`, with `AVL pending`
+
+![Fixed-point topview partial gallery](topview_fixedpoint_partial_20260610/topview_grid.png)
+
+Detailed branch-by-branch figures and the summary CSV are stored in:
+
+- `topview_fixedpoint_partial_20260610/top_view_by_branch/`
+- `topview_fixedpoint_partial_20260610/topview_summary.csv`
